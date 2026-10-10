@@ -5,37 +5,296 @@
       "moduleType": "wink",
       "hardwareVersion": "1.0.0",
       "firmwareVersion": "0.7.3",
-      "module": { "displayName": "Winkmodul", "description": "Steuert die Wink-Bewegungen" },
+      "module": {
+        "displayName": "Winkmodul",
+        "description": "Steuert die Wink-Bewegungen"
+      },
       "capabilities": [
-        { "kind": "action", "key": "headlights.toggle", "displayName": "Scheinwerfer umschalten", "description": "Schaltet die Scheinwerfer um" },
-        { "kind": "action", "key": "wink.stop", "displayName": "Stoppen", "description": "Stoppt die Bewegung" },
-        { "kind": "action", "key": "left.close", "displayName": "Links schließen", "description": "Schließt die linke Seite" },
-        { "kind": "action", "key": "left.open", "displayName": "Links öffnen", "description": "Öffnet die linke Seite" },
-        { "kind": "action", "key": "right.close", "displayName": "Rechts schließen", "description": "Schließt die rechte Seite" },
-        { "kind": "action", "key": "right.open", "displayName": "Rechts öffnen", "description": "Öffnet die rechte Seite" },
-        { "kind": "action", "key": "wink.left", "displayName": "Links winken", "description": "Führt eine linke Wink-Bewegung aus" },
-        { "kind": "action", "key": "wink.right", "displayName": "Rechts winken", "description": "Führt eine rechte Wink-Bewegung aus" },
-        { "kind": "action", "key": "flip_flap.start", "displayName": "Flip-Flap starten", "description": "Startet Flip-Flap" },
-        { "kind": "action", "key": "sleepy_eyes", "displayName": "Schlafaugen", "description": "Führt die Schlafaugen-Bewegung aus" },
-        { "kind": "action", "key": "ahegao", "displayName": "Sonderbewegung", "description": "Startet die Sonderbewegung" }
+        {
+          "kind": "action",
+          "key": "headlights.toggle",
+          "displayName": "Scheinwerfer umschalten",
+          "description": "Schaltet die Scheinwerfer um"
+        },
+        {
+          "kind": "action",
+          "key": "wink.stop",
+          "displayName": "Stoppen",
+          "description": "Stoppt die Bewegung"
+        },
+        {
+          "kind": "action",
+          "key": "left.close",
+          "displayName": "Links schließen",
+          "description": "Schließt die linke Seite"
+        },
+        {
+          "kind": "action",
+          "key": "left.open",
+          "displayName": "Links öffnen",
+          "description": "Öffnet die linke Seite"
+        },
+        {
+          "kind": "action",
+          "key": "right.close",
+          "displayName": "Rechts schließen",
+          "description": "Schließt die rechte Seite"
+        },
+        {
+          "kind": "action",
+          "key": "right.open",
+          "displayName": "Rechts öffnen",
+          "description": "Öffnet die rechte Seite"
+        },
+        {
+          "kind": "action",
+          "key": "wink.left",
+          "displayName": "Links winken",
+          "description": "Führt eine linke Wink-Bewegung aus"
+        },
+        {
+          "kind": "action",
+          "key": "wink.right",
+          "displayName": "Rechts winken",
+          "description": "Führt eine rechte Wink-Bewegung aus"
+        },
+        {
+          "kind": "action",
+          "key": "flip_flap.start",
+          "displayName": "Flip-Flap starten",
+          "description": "Startet Flip-Flap"
+        },
+        {
+          "kind": "action",
+          "key": "sleepy_eyes",
+          "displayName": "Schlafaugen",
+          "description": "Führt die Schlafaugen-Bewegung aus"
+        },
+        {
+          "kind": "action",
+          "key": "ahegao",
+          "displayName": "Sonderbewegung",
+          "description": "Startet die Sonderbewegung"
+        }
       ]
     },
     {
       "moduleType": "control-panel",
       "hardwareVersion": "1.0.0",
       "firmwareVersion": "0.6.5",
-      "module": { "displayName": "Control Panel", "description": "Bedienelemente für CANKIT" },
+      "module": {
+        "displayName": "Control Panel",
+        "description": "Bedienelemente für CANKIT"
+      },
       "capabilities": [
-        { "kind": "event", "key": "button.gpio26.pressed", "displayName": "Taste 1 gedrückt", "description": "Erste Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio25.pressed", "displayName": "Taste 2 gedrückt", "description": "Zweite Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio34.pressed", "displayName": "Taste 3 gedrückt", "description": "Dritte Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio35.pressed", "displayName": "Taste 4 gedrückt", "description": "Vierte Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio32.pressed", "displayName": "Taste 5 gedrückt", "description": "Fünfte Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio14.pressed", "displayName": "Taste 6 gedrückt", "description": "Sechste Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio27.pressed", "displayName": "Taste 7 gedrückt", "description": "Siebte Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio33.pressed", "displayName": "Taste 8 gedrückt", "description": "Achte Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio16.pressed", "displayName": "Taste 9 gedrückt", "description": "Neunte Taste wurde gedrückt" },
-        { "kind": "event", "key": "button.gpio17.pressed", "displayName": "Taste 10 gedrückt", "description": "Zehnte Taste wurde gedrückt" }
+        {
+          "kind": "event",
+          "key": "button.gpio26.pressed",
+          "displayName": "Taste 1 gedrückt",
+          "description": "Erste Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio25.pressed",
+          "displayName": "Taste 2 gedrückt",
+          "description": "Zweite Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio34.pressed",
+          "displayName": "Taste 3 gedrückt",
+          "description": "Dritte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio35.pressed",
+          "displayName": "Taste 4 gedrückt",
+          "description": "Vierte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio32.pressed",
+          "displayName": "Taste 5 gedrückt",
+          "description": "Fünfte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio14.pressed",
+          "displayName": "Taste 6 gedrückt",
+          "description": "Sechste Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio27.pressed",
+          "displayName": "Taste 7 gedrückt",
+          "description": "Siebte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio33.pressed",
+          "displayName": "Taste 8 gedrückt",
+          "description": "Achte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio16.pressed",
+          "displayName": "Taste 9 gedrückt",
+          "description": "Neunte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio17.pressed",
+          "displayName": "Taste 10 gedrückt",
+          "description": "Zehnte Taste wurde gedrückt"
+        }
+      ]
+    },
+    {
+      "moduleType": "wink",
+      "hardwareVersion": "1.0.0",
+      "firmwareVersion": "0.7.4-diagnostic-only",
+      "module": {
+        "displayName": "Winkmodul",
+        "description": "Steuert die Wink-Bewegungen"
+      },
+      "capabilities": [
+        {
+          "kind": "action",
+          "key": "headlights.toggle",
+          "displayName": "Scheinwerfer umschalten",
+          "description": "Schaltet die Scheinwerfer um"
+        },
+        {
+          "kind": "action",
+          "key": "wink.stop",
+          "displayName": "Stoppen",
+          "description": "Stoppt die Bewegung"
+        },
+        {
+          "kind": "action",
+          "key": "left.close",
+          "displayName": "Links schließen",
+          "description": "Schließt die linke Seite"
+        },
+        {
+          "kind": "action",
+          "key": "left.open",
+          "displayName": "Links öffnen",
+          "description": "Öffnet die linke Seite"
+        },
+        {
+          "kind": "action",
+          "key": "right.close",
+          "displayName": "Rechts schließen",
+          "description": "Schließt die rechte Seite"
+        },
+        {
+          "kind": "action",
+          "key": "right.open",
+          "displayName": "Rechts öffnen",
+          "description": "Öffnet die rechte Seite"
+        },
+        {
+          "kind": "action",
+          "key": "wink.left",
+          "displayName": "Links winken",
+          "description": "Führt eine linke Wink-Bewegung aus"
+        },
+        {
+          "kind": "action",
+          "key": "wink.right",
+          "displayName": "Rechts winken",
+          "description": "Führt eine rechte Wink-Bewegung aus"
+        },
+        {
+          "kind": "action",
+          "key": "flip_flap.start",
+          "displayName": "Flip-Flap starten",
+          "description": "Startet Flip-Flap"
+        },
+        {
+          "kind": "action",
+          "key": "sleepy_eyes",
+          "displayName": "Schlafaugen",
+          "description": "Führt die Schlafaugen-Bewegung aus"
+        },
+        {
+          "kind": "action",
+          "key": "ahegao",
+          "displayName": "Sonderbewegung",
+          "description": "Startet die Sonderbewegung"
+        }
+      ]
+    },
+    {
+      "moduleType": "control-panel",
+      "hardwareVersion": "1.0.0",
+      "firmwareVersion": "0.6.6-diagnostic-only",
+      "module": {
+        "displayName": "Control Panel",
+        "description": "Bedienelemente für CANKIT"
+      },
+      "capabilities": [
+        {
+          "kind": "event",
+          "key": "button.gpio26.pressed",
+          "displayName": "Taste 1 gedrückt",
+          "description": "Erste Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio25.pressed",
+          "displayName": "Taste 2 gedrückt",
+          "description": "Zweite Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio34.pressed",
+          "displayName": "Taste 3 gedrückt",
+          "description": "Dritte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio35.pressed",
+          "displayName": "Taste 4 gedrückt",
+          "description": "Vierte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio32.pressed",
+          "displayName": "Taste 5 gedrückt",
+          "description": "Fünfte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio14.pressed",
+          "displayName": "Taste 6 gedrückt",
+          "description": "Sechste Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio27.pressed",
+          "displayName": "Taste 7 gedrückt",
+          "description": "Siebte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio33.pressed",
+          "displayName": "Taste 8 gedrückt",
+          "description": "Achte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio16.pressed",
+          "displayName": "Taste 9 gedrückt",
+          "description": "Neunte Taste wurde gedrückt"
+        },
+        {
+          "kind": "event",
+          "key": "button.gpio17.pressed",
+          "displayName": "Taste 10 gedrückt",
+          "description": "Zehnte Taste wurde gedrückt"
+        }
       ]
     }
   ]
